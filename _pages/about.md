@@ -3,6 +3,18 @@ layout: content
 title: About
 permalink: /about/
 ---
+## My GPG Key:
+
+D3EA C374 AC2B 30DD C1B3 0A7F 3F90 059E 1AFD DD53
+
+### Old GPG Key (As of 2017-12-22):
+
+AF6B 1C26 E2D0 A988 432B 94F4 24C0 2B85 B59F E5A9
+
+## Debian
+ - [Packages](https://qa.debian.org/developer.php?email=tookmund%40gmail.com)
+ - [Wiki](https://wiki.debian.org/JacobAdams)
+ - [Other Contributions](https://contributors.debian.org/contributor/tookmund-guest@alioth/)
 
 ## The Website
 This site is powered by [Jekyll](https://jekyllrb.com) on [Github Pages](https://pages.github.com).
