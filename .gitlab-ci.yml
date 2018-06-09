@@ -1,4 +1,6 @@
+# To allow my site to deploy on GitLab
 # Docs: https://docs.gitlab.com/ce/pages/
+
 image: ruby:2.3
 
 variables:
