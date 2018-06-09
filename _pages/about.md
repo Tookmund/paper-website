@@ -3,6 +3,15 @@ layout: content
 title: About
 permalink: /about/
 ---
+
+Jacob Adams
+
+/ˈdʒeɪkəb ˈædəmz/
+
+Tookmund
+
+/tuːkmʌnˈd/
+
 ## My GPG Key:
 
 [D3EA C374 AC2B 30DD C1B3 0A7F 3F90 059E 1AFD DD53](/assets/3F90059E1AFDDD53.asc)
