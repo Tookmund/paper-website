@@ -7,7 +7,7 @@ email: tookmund@gmail.com
 twitter_username:
 github_username: tookmund
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tookmund.github.io" # the base hostname & protocol for your site
 
 google_analytics_id:
