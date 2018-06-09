@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ## My GPG Key:
 
-D3EA C374 AC2B 30DD C1B3 0A7F 3F90 059E 1AFD DD53
+[D3EA C374 AC2B 30DD C1B3 0A7F 3F90 059E 1AFD DD53](/assets/3F90059E1AFDDD53.asc)
 
 ### Old GPG Key (As of 2017-12-22):
 
@@ -19,3 +19,5 @@ AF6B 1C26 E2D0 A988 432B 94F4 24C0 2B85 B59F E5A9
 ## The Website
 This site is powered by [Jekyll](https://jekyllrb.com) on [Github Pages](https://pages.github.com).
 The theme is ["Paper"](https://github.com/mkchoi212/paper-jekyll-theme) by [Mike JS. Choi](https://deadbeef.me/)
+
+[Quotes](/assets/quotes.txt)
