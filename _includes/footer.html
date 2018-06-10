@@ -1,4 +1,14 @@
 <footer class="c-page__footer">
   <p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p>
-  <p>{% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a><span class="u-separate"></span>{% endif %}{% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">Github</a>{% endif %}</p>
+  <p>
+	{% if site.github_username %}
+	<a href="https://github.com/{{ site.github_username }}">Github</a>
+	{% endif %}{% if site.gitlab_username %}
+    <span class="u-separate"></span>
+	<a href="https://gitlab.com/{{ site.gitlab_username }}">Gitlab</a>
+	{% endif %}{% if site.salsa_username %}
+    <span class="u-separate"></span>
+	<a href="https://salsa.debian.org/{{ site.salsa_username }}">Salsa.d.o</a>
+	{% endif %}
+  </p>
 </footer>

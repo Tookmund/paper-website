@@ -4,8 +4,9 @@ description: >
   A place for my random thoughts about software
 author: Jacob Adams
 email: tookmund@gmail.com
-twitter_username:
 github_username: tookmund
+gitlab_username: tookmund
+salsa_username: tookmund-guest
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tookmund.github.io" # the base hostname & protocol for your site
