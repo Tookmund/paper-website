@@ -1,5 +1,8 @@
 <footer class="c-page__footer">
-  <p>&copy; {{ site.author }} {{ 'now' | date: '%Y' }}</p>
+  <p>
+    &copy; <a href="mailto:{{ site.email }}">{{ site.author }}</a>
+    {{ 'now' | date: '%Y' }}
+  </p>
   <p>
 	{% if site.github_username %}
 	<a href="https://github.com/{{ site.github_username }}">Github</a>
