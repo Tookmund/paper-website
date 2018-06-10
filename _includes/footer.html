@@ -4,14 +4,14 @@
     {{ 'now' | date: '%Y' }}
   </p>
   <p>
-	{% if site.github_username %}
-	<a href="https://github.com/{{ site.github_username }}">Github</a>
-	{% endif %}{% if site.gitlab_username %}
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}">Github</a>
+    {% endif %}{% if site.gitlab_username %}
     <span class="u-separate"></span>
-	<a href="https://gitlab.com/{{ site.gitlab_username }}">Gitlab</a>
-	{% endif %}{% if site.salsa_username %}
+    <a href="https://gitlab.com/{{ site.gitlab_username }}">Gitlab</a>
+    {% endif %}{% if site.salsa_username %}
     <span class="u-separate"></span>
-	<a href="https://salsa.debian.org/{{ site.salsa_username }}">Salsa.d.o</a>
-	{% endif %}
+    <a href="https://salsa.debian.org/{{ site.salsa_username }}">Salsa.d.o</a>
+    {% endif %}
   </p>
 </footer>
