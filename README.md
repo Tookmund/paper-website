@@ -1,3 +1,5 @@
+This is my personal fork of [Mike JS. Choi's excellent Paper Theme](https://github.com/mkchoi212/paper-jekyll-theme/)
+
 <p align="center">
   <img src="./assets/paper-cover-photo.png">
   <p align="center">
