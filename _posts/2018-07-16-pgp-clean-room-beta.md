@@ -4,6 +4,7 @@ title: "PGP Clean Room Beta"
 description: "Beta for my GSOC project now available! Testers wanted!"
 category: 
 tags: [debian]
+date: 2018-07-16 17:00:00 -0500
 ---
 
 
