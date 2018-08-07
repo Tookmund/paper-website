@@ -33,10 +33,10 @@ Links
 You'll probably want to read the [README](https://salsa.debian.org/tookmund-guest/make-pgp-clean-room/blob/master/README.md)
 to understand how to build and use this project.
 
-The latest builds can be found [here](http://pgpcr.tookmund.com/) or on [Google Drive](https://drive.google.com/open?id=12C4LbiZ8HuZFfPdZzRm561Wyg7TJiEvj)
+The latest builds can be found [here](http://pgpcr.tookmund.com/) or on [Google Drive](https://drive.google.com/open?id=12C4LbiZ8HuZFfPdZzRm561Wyg7TJiEvj).
 
 Each build should come with a `.sig` file, signed by my
-[GPG Key](/assets/3F90059E1AFDDD53.asc)
+[GPG Key](/assets/3F90059E1AFDDD53.asc).
 
 [pgpcr](https://salsa.debian.org/tookmund-guest/pgpcr): This repository
 contains the source code of the PGP Clean Room application.
@@ -53,7 +53,8 @@ forward was part of GSoC 2018.
 The project changelog, which was a day-by-day log of my activities, can be
 found [here](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/CHANGELOG.md).
 
-You can find links to all my weekly reports on the [project wiki page](https://wiki.debian.org/JacobAdams/PGPCleanRoomLiveCD)
+You can find links to all my weekly reports on the
+[project wiki page](https://wiki.debian.org/JacobAdams/PGPCleanRoomLiveCD).
 
 Translators Wanted
 ------------------
