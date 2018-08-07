@@ -27,6 +27,14 @@ Internet-connected computer.
 The PGP Clean Room also supports PKI, allowing one to create a Certificate
 Authority and issue certificates from Certificate Signing Requests.
 
+Translators Wanted
+------------------
+
+The application has gettext support and [a partial German translation](https://salsa.debian.org/tookmund-guest/pgpcr/merge_requests/1),
+but now that strings are final I would love to support more languages than
+just English! See the [PGPCR README](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/README.md)
+to get started, and thank you for your help!
+
 Links
 -----
 
@@ -56,13 +64,15 @@ found [here](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/CHANGELOG
 You can find links to all my weekly reports on the
 [project wiki page](https://wiki.debian.org/JacobAdams/PGPCleanRoomLiveCD).
 
-Translators Wanted
-------------------
-
-The application has gettext support and [a partial German translation](https://salsa.debian.org/tookmund-guest/pgpcr/merge_requests/1),
-but now that strings are final I would love to support more languages than
-just English! See the [PGPCR README](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/README.md)
-to get started, and thank you for your help!
+Bugs Filed
+----------
+Over the course of this project I also filed a few bugs with other projects.
+- [Debian #903681](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=903681),
+about psf-unifont's uneeded dependency on bdf2psf.
+- [GNUPG T4001](https://dev.gnupg.org/T4001), about exposing import and export
+functions in the GPGME python bindings.
+- [GNUPG T4052](https://dev.gnupg.org/T4052), about GPG's unability to guess
+an algorithm for P-curve signing and authentication keys.
 
 Tasks yet to be accomplished
 ----------------------------
