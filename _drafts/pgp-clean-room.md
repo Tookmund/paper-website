@@ -68,10 +68,10 @@ Bugs Filed
 ----------
 Over the course of this project I also filed a few bugs with other projects.
 - [Debian #903681](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=903681),
-about psf-unifont's uneeded dependency on bdf2psf.
+about psf-unifont's unneeded dependency on bdf2psf.
 - [GNUPG T4001](https://dev.gnupg.org/T4001), about exposing import and export
 functions in the GPGME python bindings.
-- [GNUPG T4052](https://dev.gnupg.org/T4052), about GPG's unability to guess
+- [GNUPG T4052](https://dev.gnupg.org/T4052), about GPG's inability to guess
 an algorithm for P-curve signing and authentication keys.
 
 Tasks yet to be accomplished
@@ -89,7 +89,7 @@ entropy, please let me know, as I would love to at least inform the user of
 what's happening.
 - [#27](https://salsa.debian.org/tookmund-guest/pgpcr/issues/27), creating
 a proper Debian package for inclusion in the archive, is basically done,
-I'm just wanting on a sponsor for the [RFS](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=905666).
+I'm just waiting on a sponsor for the [RFS](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=905666).
 - [#15](https://salsa.debian.org/tookmund-guest/pgpcr/issues/15), printing
 the GPG master key and revocation certificate, would be nice but requires
 both installing CUPS on the live CD and somehow configuring printing.
