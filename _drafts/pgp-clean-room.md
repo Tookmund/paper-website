@@ -14,7 +14,7 @@ PGP/PKI Clean Room
 Despite its problems, PGP is still used heavily by many open source
 communities, especially [Debian](https://debian.org). Debian's web of trust is
 the last line of defense between a Debian user and a malicious software update.
-Given the availablity of GPG subkeys, the safest thing would be to store one's
+Given the availability of GPG subkeys, the safest thing would be to store one's
 private GPG master key offline and use subkeys regularly. However, many do not
 do this as it can be a complex and arcane process.
 
@@ -35,7 +35,7 @@ to understand how to build and use this project.
 
 The latest builds can be found [here](http://pgpcr.tookmund.com/) or on [Google Drive](https://drive.google.com/open?id=12C4LbiZ8HuZFfPdZzRm561Wyg7TJiEvj)
 
-Each build should come with a ```.sig``` file, signed by my
+Each build should come with a `.sig` file, signed by my
 [GPG Key](/assets/3F90059E1AFDDD53.asc)
 
 [pgpcr](https://salsa.debian.org/tookmund-guest/pgpcr): This repository
