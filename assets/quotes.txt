@@ -936,3 +936,7 @@ be supported when we err.”
 
 "Alas, not all problems can be solved with code"
  - Chris Lamb
+
+“The price of freedom is the probability of crime.”
+ - Dan Greer
+
