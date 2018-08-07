@@ -11,9 +11,9 @@ the PGP/PKI Clean Room, has arrived at a stable (1.0) release!
 
 PGP/PKI Clean Room
 ------------------
-Despite its problems, PGP is still used heavily by many open source
-communities, especially [Debian](https://debian.org). Debian's web of trust is
-the last line of defense between a Debian user and a malicious software update.
+PGP is still used heavily by many open source communities, especially
+[Debian](https://debian.org). Debian's web of trust is the last line of
+defense between a Debian user and a malicious software update.
 Given the availability of GPG subkeys, the safest thing would be to store one's
 private GPG master key offline and use subkeys regularly. However, many do not
 do this as it can be a complex and arcane process.
