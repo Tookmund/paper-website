@@ -76,6 +76,9 @@ the user. For now the application just freezes until the computer somehow
 obtains enough entropy. If anyone knows how I could detect this state of low
 entropy, please let me know, as I would love to at least inform the user of
 what's happening.
+- [#27](https://salsa.debian.org/tookmund-guest/pgpcr/issues/27), creating
+a proper Debian package for inclusion in the archive, is basically done,
+I'm just wanting on a sponsor for the [RFS]().
 - [#15](https://salsa.debian.org/tookmund-guest/pgpcr/issues/15), printing
 the GPG master key and revocation certificate, would be nice but requires
 both installing CUPS on the live CD and somehow configuring printing.
