@@ -93,18 +93,20 @@ on other things.
 
 Screenshots
 -----------
-![Main Menu]()
+![Main Menu](/assets/pgpcr/1.0-mainmenu.png)
 
-![Generating GPG Key]()
+![Generating GPG Key](/assets/pgpcr/1.0-gpggen.png)
 
-![Progress Bar]()
+![Progress Bar](/assets/pgpcr/1.0-progress.png)
 
-![GPG Key Backup]()
+![Generating GPG Signing Subkey](/assets/pgpcr/1.0-subkey.png)
 
-![Setting up a Smartcard]()
+![GPG Key Backup](/assets/pgpcr/1.0-backup.png)
 
-![Loading a GPG Key from a Backup]()
+![Setting up a Smartcard](/assets/pgpcr/1.0-smartcard.png)
 
-![CA Creation]()
+![Loading a GPG Key from a Backup](/assets/pgpcr/1.0-loadkey.png)
 
-![Advanced Menu]()
+![CA Creation](/assets/pgpcr/1.0-CA.png)
+
+![Advanced Menu](/assets/pgpcr/1.0-adv.png)
