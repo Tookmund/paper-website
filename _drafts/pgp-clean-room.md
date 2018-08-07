@@ -90,6 +90,11 @@ For now the [pki](https://manpages.debian.org/stretch/strongswan-pki/pki.1.en.ht
 command works and is significantly simpler to use. Had I another week I would
 certainly do this but I'd like to set this project aside for a while and work
 on other things.
+- [#18](https://salsa.debian.org/tookmund-guest/pgpcr/issues/18) is
+effectively solved by unconditionally calling `setupcon`, which we have to do
+to setup non-standard keyboards anyway. However, this should be called by the
+appropriate udev rules. Thus, I'm leaving the issue open until I figure out
+what's going on.
 
 Screenshots
 -----------
