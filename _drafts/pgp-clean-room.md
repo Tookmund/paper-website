@@ -27,13 +27,13 @@ Internet-connected computer.
 The PGP Clean Room also supports PKI, allowing one to create a Certificate
 Authority and issue certificates from Certificate Signing Requests.
 
-Translators Wanted
-------------------
+Screenshots
+-----------
+![Main Menu](/assets/pgpcr/1.0-mainmenu.png)
 
-The application has gettext support and [a partial German translation](https://salsa.debian.org/tookmund-guest/pgpcr/merge_requests/1),
-but now that strings are final I would love to support more languages than
-just English! See the [PGPCR README](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/README.md)
-to get started, and thank you for your help!
+![Progress Bar](/assets/pgpcr/1.0-progress.png)
+
+![Setting up a Smartcard](/assets/pgpcr/1.0-smartcard.png)
 
 Usage
 -----
@@ -45,6 +45,13 @@ The latest builds can be found [here](http://pgpcr.tookmund.com/) or on [Google 
 
 Each build should come with a `.sig` file, signed by my
 [GPG Key](/assets/3F90059E1AFDDD53.asc).
+Translators Wanted
+------------------
+
+The application has gettext support and [a partial German translation](https://salsa.debian.org/tookmund-guest/pgpcr/merge_requests/1),
+but now that strings are final I would love to support more languages than
+just English! See the [PGPCR README](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/README.md)
+to get started, and thank you for your help!
 
 Source Code
 -----------
@@ -80,19 +87,14 @@ functions in the GPGME python bindings.
 - [GNUPG T4052](https://dev.gnupg.org/T4052), about GPG's inability to guess
 an algorithm for P-curve signing and authentication keys.
 
-Screenshots
+More Screenshots
 -----------
-![Main Menu](/assets/pgpcr/1.0-mainmenu.png)
 
 ![Generating GPG Key](/assets/pgpcr/1.0-gpggen.png)
-
-![Progress Bar](/assets/pgpcr/1.0-progress.png)
 
 ![Generating GPG Signing Subkey](/assets/pgpcr/1.0-subkey.png)
 
 ![GPG Key Backup](/assets/pgpcr/1.0-backup.png)
-
-![Setting up a Smartcard](/assets/pgpcr/1.0-smartcard.png)
 
 ![Loading a GPG Key from a Backup](/assets/pgpcr/1.0-loadkey.png)
 
