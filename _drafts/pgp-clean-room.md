@@ -35,7 +35,7 @@ but now that strings are final I would love to support more languages than
 just English! See the [PGPCR README](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/README.md)
 to get started, and thank you for your help!
 
-Links
+Usage
 -----
 
 You'll probably want to read the [README](https://salsa.debian.org/tookmund-guest/make-pgp-clean-room/blob/master/README.md)
@@ -45,6 +45,9 @@ The latest builds can be found [here](http://pgpcr.tookmund.com/) or on [Google 
 
 Each build should come with a `.sig` file, signed by my
 [GPG Key](/assets/3F90059E1AFDDD53.asc).
+
+Source Code
+-----------
 
 [pgpcr](https://salsa.debian.org/tookmund-guest/pgpcr): This repository
 contains the source code of the PGP Clean Room application.
@@ -57,6 +60,9 @@ for the PGP Clean Room application. This is the recommended way to run the
 application and allows for easy offline key pair management.
 Everything from commit [a50e2aae](https://salsa.debian.org/tookmund-guest/make-pgp-clean-room/commit/a50e2aae93b855dcacabffa8320369941e1855a5)
 forward was part of GSoC 2018.
+
+Development Log
+---------------
 
 The project changelog, which was a day-by-day log of my activities, can be
 found [here](https://salsa.debian.org/tookmund-guest/pgpcr/blob/master/CHANGELOG.md).
