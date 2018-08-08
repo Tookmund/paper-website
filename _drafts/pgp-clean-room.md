@@ -41,10 +41,9 @@ Usage
 You'll probably want to read the [README](https://salsa.debian.org/tookmund-guest/make-pgp-clean-room/blob/master/README.md)
 to understand how to build and use this project.
 
-The latest builds can be found [here](http://pgpcr.tookmund.com/) or on [Google Drive](https://drive.google.com/open?id=12C4LbiZ8HuZFfPdZzRm561Wyg7TJiEvj).
+It contains instructions on how to obtain the latest build, as well as how to
+verify it, use it and build it from source.
 
-Each build should come with a `.sig` file, signed by my
-[GPG Key](/assets/3F90059E1AFDDD53.asc).
 Translators Wanted
 ------------------
 
