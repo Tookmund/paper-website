@@ -74,42 +74,6 @@ functions in the GPGME python bindings.
 - [GNUPG T4052](https://dev.gnupg.org/T4052), about GPG's inability to guess
 an algorithm for P-curve signing and authentication keys.
 
-Tasks yet to be accomplished
-----------------------------
-A look at the still [open issues](https://salsa.debian.org/tookmund-guest/pgpcr/issues)
-shows that the project, while functionally complete, is not quite finished.
-
-- [#16](https://salsa.debian.org/tookmund-guest/pgpcr/issues/16), lack of
-randomness, is still a concern for generating keys.
-[rngd](https://packages.debian.org/stretch/rng-tools5) fixes it for newer
-hardware, but I'm still looking for ways to better present this problem to
-the user. For now the application just freezes until the computer somehow
-obtains enough entropy. If anyone knows how I could detect this state of low
-entropy, please let me know, as I would love to at least inform the user of
-what's happening.
-- [#27](https://salsa.debian.org/tookmund-guest/pgpcr/issues/27), creating
-a proper Debian package for inclusion in the archive, is basically done,
-I'm just waiting on a sponsor for the [RFS](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=905666).
-- [#15](https://salsa.debian.org/tookmund-guest/pgpcr/issues/15), printing
-the GPG master key and revocation certificate, would be nice but requires
-both installing CUPS on the live CD and somehow configuring printing.
-CUPS requires enough manual configuration right now that this seems
-impossible as we can't know what PPDs are required. That's not even
-considering that we could only support USB printers, as all networking is
-intentionally disabled in the Clean Room Live CD.
-- [#36](https://salsa.debian.org/tookmund-guest/pgpcr/issues/36), moving all
-PKI operations to the [openssl](https://manpages.debian.org/stretch/openssl/openssl.1ssl.en.html)
-command, would be nice but requires some studying of the incantations required.
-For now the [pki](https://manpages.debian.org/stretch/strongswan-pki/pki.1.en.html)
-command works and is significantly simpler to use. Had I another week I would
-certainly do this but I'd like to set this project aside for a while and work
-on other things.
-- [#18](https://salsa.debian.org/tookmund-guest/pgpcr/issues/18) is
-effectively solved by unconditionally calling `setupcon`, which we have to do
-to setup non-standard keyboards anyway. However, this should be called by the
-appropriate udev rules. Thus, I'm leaving the issue open until I figure out
-what's going on.
-
 Screenshots
 -----------
 ![Main Menu](/assets/pgpcr/1.0-mainmenu.png)
