@@ -20,7 +20,7 @@ do this as it can be a complex and arcane process.
 
 The PGP Clean Room aims to simplify this by allowing a user to safely create
 and store their master key offline while exporting their subkeys, either to
-a USB drive for importing on thier computer, or to a smartcard, where they can
+a USB drive for importing on their computer, or to a smartcard, where they can
 be safely used without ever directly exposing one's private keys to an
 Internet-connected computer.
 
