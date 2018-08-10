@@ -18,7 +18,7 @@ Given the availability of GPG subkeys, the safest thing would be to store one's
 private GPG master key offline and use subkeys regularly. However, many do not
 do this as it can be a complex and arcane process.
 
-The PGP Clean Room aims to simplify this by allowing a user to safely create
+The PGP Clean Room simplifies this by allowing a user to safely create
 and store their master key offline while exporting their subkeys, either to
 a USB drive for importing on their computer, or to a smartcard, where they can
 be safely used without ever directly exposing one's private keys to an
